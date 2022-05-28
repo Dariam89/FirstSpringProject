@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class MyComfing {
     @Bean
     MyBeen myBeen(){
+
         return  new MyBeen();
     }
     @Bean
